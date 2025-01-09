@@ -1,0 +1,72 @@
+/* Corps principal */
+.vx-app {
+    background-color: var(--vx-background) !important;
+    color: var(--vx-text-primary) !important;
+}
+
+/* Fond des sections */
+.vx-channelText {
+    background-color: var(--vx-background-secondary) !important;
+}
+
+/* Texte des messages */
+.vx-message {
+    color: var(--vx-text-primary) !important;
+}
+
+/* Texte secondaire (comme les timestamps) */
+.vx-timestamp {
+    color: var(--vx-text-secondary) !important;
+}
+
+/* Liens */
+.vx-link {
+    color: var(--vx-accent) !important;
+}
+
+/* Fond des utilisateurs en ligne */
+.vx-online {
+    background-color: var(--vx-accent) !important;
+}
+
+/* Style des bordures */
+.vx-border {
+    border-color: var(--vx-border-color) !important;
+}
+
+/* Style des boutons */
+.vx-button {
+    background-color: var(--vx-accent) !important;
+    color: var(--vx-text-primary) !important;
+    border: 1px solid var(--vx-border-color) !important;
+}
+
+.vx-button:hover {
+    background-color: #5b6eae !important; /* Couleur au survol */
+}
+
+/* Barre de navigation */
+.vx-nav {
+    background-color: var(--vx-background-secondary) !important;
+    border-bottom: 1px solid var(--vx-border-color) !important;
+}
+
+/* Effet sur les éléments au survol */
+.vx-hover:hover {
+    background-color: rgba(114, 137, 218, 0.1) !important;
+}
+
+/* Styles pour les messages d'erreur */
+.vx-error {
+    color: #ff4d4d !important; /* Couleur d'erreur */
+}
+
+/* Styles pour les messages d'avertissement */
+.vx-warning {
+    color: #ffcc00 !important; /* Couleur d'avertissement */
+}
+
+/* Styles pour les messages d'information */
+.vx-info {
+    color: #4caf50 !important; /* Couleur d'information */
+}
