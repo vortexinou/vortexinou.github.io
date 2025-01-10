@@ -1,0 +1,8 @@
+/* Corps principal */
+:root {
+    --vx-background: url('https://zupimages.net/up/24/44/d8hp.gif');
+}
+
+.vx-background {
+	--card-primary-bg: var(--vx-background);
+}
