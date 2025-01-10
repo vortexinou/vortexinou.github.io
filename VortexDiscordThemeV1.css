@@ -1,0 +1,13 @@
+/* Corps principal */
+:root {
+    --vx-background: url('https://zupimages.net/up/24/44/d8hp.gif');
+
+    --successcolor: rgba(59, 165, 92,0.4);
+}
+
+.vx-background {
+    --card-primary-bg: var(--vx-background);
+    --text-positive: rgb(var(--successcolor));
+    --status-positive: rgb(var(--successcolor));
+    --info-positive-background: var(--successcolor)
+}
