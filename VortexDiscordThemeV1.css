@@ -1,0 +1,29 @@
+/* Corps principal */
+:root {
+    --vx-background: url('https://zupimages.net/up/24/44/d8hp.gif');
+
+    --vx-backgroundposition: center;
+	--vx-backgroundsize: cover;
+	--vx-backgroundblur: 0;
+
+    --popout: var(--background);
+	--popoutposition: var(--backgroundposition);
+	--popoutsize: var(--backgroundsize);
+	--popoutblur: var(--backgroundblur);
+
+    --successcolor: rgba(59, 165, 92,0.4);
+}
+
+/*.vx-background {
+    --card-primary-bg: var(--vx-background);
+    --text-positive: rgb(var(--successcolor));
+    --status-positive: rgb(var(--successcolor));
+    --info-positive-background: var(--successcolor)
+}*/
+
+.appMount_ea7e65 {
+    background: var(--vx-background) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
