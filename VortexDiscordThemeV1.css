@@ -1,0 +1,17 @@
+/* Corps principal */
+:root {
+    --vx-background: url('https://zupimages.net/up/24/44/d8hp.gif');
+
+    --vx-backgroundposition: center;
+	--vx-backgroundsize: cover;
+	--vx-backgroundblur: 0;
+
+    --popout: var(--background);
+	--popoutposition: var(--backgroundposition);
+	--popoutsize: var(--backgroundsize);
+	--popoutblur: var(--backgroundblur);
+
+    --successcolor: rgba(59, 165, 92,0.4);
+}
+
+.selected_c9d951{background-color:var(--vx-background)}
