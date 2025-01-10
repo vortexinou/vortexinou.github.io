@@ -1,0 +1,68 @@
+/* Corps principal */
+:root {
+    --vx-bg: url(https://zupimages.net/up/24/44/d8hp.gif);
+    --vx-blur: 6px;
+    --vx-radius: 10px;
+    --main-content-color: rgba(0, 0, 0, 0.2);
+    --sidebar-color: rgba(0, 0, 0, 0.4);
+    --accent-hue: 156;
+    --accent-saturation: 77.5%;
+    --accent-lightness: 47.1%;
+    --accent-hsl: var(--accent-hue), calc(var(--accent-saturation) * var(--saturation-factor)), var(--accent-lightness);
+    --message-color: rgba(0, 0, 0, 0.4);
+    --message-color-hover: rgba(0, 0, 0, 0.55);
+    --textarea-color: 255, 255, 255;
+    --textarea-alpha: 0.1;
+    --textarea-text-color: #fff;
+    --textarea-placeholder-color: #aaa;
+  }
+  
+  body {
+    background-color: transparent;
+  }
+  
+  .appMount_ea7e65 {
+    background: var(--vx-bg) !important;
+    backdrop-filter: blur(var(--vx-blur));
+  }
+  
+  .wrapper_f9f2ca {
+    background-color: var(--message-color) !important;
+    border-radius: var(--vx-radius);
+  }
+  
+  .wrapper_f9f2ca:hover {
+    background-color: var(--message-color-hover) !important;
+  }
+  
+  .channelName-3w2Y3c {
+    color: var(--accent-hsl);
+  }
+  
+  .button_dd4f85 {
+    background-color: hsla(var(--accent-hsl), 1);
+    color: #fff;
+    border-radius: var(--app-radius);
+  }
+  
+  .button_dd4f85:hover {
+    background-color: hsla(var(--accent-hsl), 0.8);
+  }
+
+
+/*:root {
+    --vx-background: url('https://zupimages.net/up/24/44/d8hp.gif');
+
+    --vx-backgroundposition: center;
+	--vx-backgroundsize: cover;
+	--vx-backgroundblur: 0;
+
+    --popout: var(--background);
+	--popoutposition: var(--backgroundposition);
+	--popoutsize: var(--backgroundsize);
+	--popoutblur: var(--backgroundblur);
+
+    --successcolor: rgba(59, 165, 92,0.4);
+}
+
+.selected_c9d951{background-color:var(--vx-background)}
